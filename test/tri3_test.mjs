@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import Triangle from '../lib/third.mjs';
+import Triangle from '../lib/tri3.mjs';
 
 /*
  * WARNING: Different interface. See next file for restored interface.

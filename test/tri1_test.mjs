@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import Triangle from '../lib/second.mjs';
+import Triangle from '../lib/tri1.mjs';
 
 test('viewing side lengths', t => {
   const triangle = new Triangle(3, 4, 5);
@@ -22,12 +22,4 @@ test('works without new', t => {
   const right = Triangle(3, 4, 5);
 
   t.true(right.isTriangle());
-});
-
-test('can be changed', t => {
-  const right = Triangle(3, 4, 5);
-
-  right.a = 1;
-
-  t.false(right.isTriangle());
 });
